@@ -12,13 +12,24 @@ body {
     background-position: center center;
 }
 
-.articles {
-    background-color: white;
-    border: none;
+@media screen and (min-width:500px) {
+    html {
+        font-size: 70%;
+    }
+
+    body {
+        line-height: 1.8;
+    }
 }
 
-.articles div {
-    margin-inline: 10px;
+@media screen and (min-width:700px) {
+    html {
+        font-size: 80%;
+    }
+
+    body {
+        line-height: 2;
+    }
 }
 
 @media screen and (min-width:1200px) {
@@ -391,30 +402,15 @@ footer a {
     }
 }
 
+/* ESERCIZIO DISPLAY GRID */
 
-/* ESERCIZIO DIPLAY GRID */
-
-@media screen and (min-width:500px) {
-    html {
-        font-size: 70%;
-    }
-
-    body {
-        line-height: 1.8;
-    }
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 
-@media screen and (min-width:800px) {
-    html {
-        font-size: 80%;
-    }
-
-    body {
-        line-height: 2;
-    }
-
+@media screen and (max-width: 800px) {
     main {
-        display: flex;
+        display: inherit;
     }
-
 }
