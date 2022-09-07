@@ -49,9 +49,11 @@ body {
 
     .articles {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         background-color: white;
         border: none;
+        width: 300px;
+
     }
 }
 
