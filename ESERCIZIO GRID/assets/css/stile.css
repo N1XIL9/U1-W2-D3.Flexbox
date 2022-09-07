@@ -409,6 +409,11 @@ main {
     grid-template-columns: 2fr 1fr;
 }
 
+section {
+    position: sticky;
+    top: 300px;
+}
+
 @media screen and (max-width: 800px) {
     main {
         display: inherit;
