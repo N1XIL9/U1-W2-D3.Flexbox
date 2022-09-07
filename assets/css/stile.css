@@ -17,7 +17,11 @@ body {
     border: none;
 }
 
-@media screen and (min-width:500px) {
+.articles div {
+    margin-inline: 10px;
+}
+
+@media screen and (min-width:500px) and (max-width:800px) {
     html {
         font-size: 70%;
     }
@@ -28,17 +32,15 @@ body {
 
     header div {
         display: flex;
-        flex-basis: 30%;
+        justify-content: space-between;
     }
 
     .articles {
         display: flex;
     }
-
-
 }
 
-@media screen and (min-width:700px) {
+@media screen and (min-width:800px) {
     html {
         font-size: 80%;
     }
@@ -57,8 +59,8 @@ body {
         background-color: white;
         border: none;
         width: 300px;
-
     }
+
 }
 
 @media screen and (min-width:1200px) {
