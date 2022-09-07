@@ -12,6 +12,11 @@ body {
     background-position: center center;
 }
 
+.articles {
+    background-color: white;
+    border: none;
+}
+
 @media screen and (min-width:500px) {
     html {
         font-size: 70%;
@@ -23,12 +28,11 @@ body {
 
     header div {
         display: flex;
+        flex-basis: 30%;
     }
 
     .articles {
         display: flex;
-        background-color: white;
-        border: none;
     }
 
 
