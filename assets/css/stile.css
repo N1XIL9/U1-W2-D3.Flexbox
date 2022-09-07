@@ -21,7 +21,7 @@ body {
     margin-inline: 10px;
 }
 
-@media screen and (min-width:500px) and (max-width:800px) {
+@media screen and (min-width:500px) {
     html {
         font-size: 70%;
     }
@@ -32,7 +32,7 @@ body {
 
     header div {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .articles {
