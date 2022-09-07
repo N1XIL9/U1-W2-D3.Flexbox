@@ -392,7 +392,7 @@ footer a {
 }
 
 
-/* ESERCIZIO DIPLAY FLEX */
+/* ESERCIZIO DIPLAY GRID */
 
 @media screen and (min-width:500px) {
     html {
@@ -401,15 +401,6 @@ footer a {
 
     body {
         line-height: 1.8;
-    }
-
-    header div {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .articles {
-        display: flex;
     }
 }
 
@@ -424,14 +415,6 @@ footer a {
 
     main {
         display: flex;
-    }
-
-    .articles {
-        display: flex;
-        flex-direction: column-reverse;
-        background-color: white;
-        border: none;
-        width: 300px;
     }
 
 }
