@@ -21,48 +21,6 @@ body {
     margin-inline: 10px;
 }
 
-@media screen and (min-width:500px) {
-    html {
-        font-size: 70%;
-    }
-
-    body {
-        line-height: 1.8;
-    }
-
-    header div {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .articles {
-        display: flex;
-    }
-}
-
-@media screen and (min-width:800px) {
-    html {
-        font-size: 80%;
-    }
-
-    body {
-        line-height: 2;
-    }
-
-    main {
-        display: flex;
-    }
-
-    .articles {
-        display: flex;
-        flex-direction: column-reverse;
-        background-color: white;
-        border: none;
-        width: 300px;
-    }
-
-}
-
 @media screen and (min-width:1200px) {
     html {
         font-size: 100%;
@@ -431,4 +389,49 @@ footer a {
     .toTop {
         display: none;
     }
+}
+
+
+/* ESERCIZIO DIPLAY FLEX */
+
+@media screen and (min-width:500px) {
+    html {
+        font-size: 70%;
+    }
+
+    body {
+        line-height: 1.8;
+    }
+
+    header div {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .articles {
+        display: flex;
+    }
+}
+
+@media screen and (min-width:800px) {
+    html {
+        font-size: 80%;
+    }
+
+    body {
+        line-height: 2;
+    }
+
+    main {
+        display: flex;
+    }
+
+    .articles {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: white;
+        border: none;
+        width: 300px;
+    }
+
 }
