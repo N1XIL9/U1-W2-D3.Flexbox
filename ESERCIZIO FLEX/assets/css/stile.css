@@ -324,11 +324,13 @@ aside div {
     padding: 1em;
 }
 
+
 aside div p:last-child {
     margin-bottom: 0;
     font-size: 0.8em;
     text-align: right;
 }
+
 
 
 /* FOOTER */
@@ -410,6 +412,10 @@ footer a {
 
     .articles {
         display: flex;
+    }
+
+    .articles div {
+        flex: 1 0 0;
     }
 }
 
